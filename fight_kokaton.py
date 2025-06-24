@@ -150,7 +150,7 @@ def main():
     for _ in range(NUM_OF_BOMBS):
     bombs.append(Bomb((255, 0, 0), 10))
     for _ in range(NUM_OF_BOMBS):
-        bombs.append(Bomb(255,0,0))
+        bombs.append(Bomb(255,0,0),10)
     beam = None  # ゲーム初期化時にはビームは存在しない
     clock = pg.time.Clock()
     tmr = 0
